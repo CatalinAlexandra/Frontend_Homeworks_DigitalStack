@@ -114,7 +114,7 @@ Creează un orar școlar:
 - Unește celule pentru pauzele mari
 - Folosește `colspan` și `rowspan`
 
-## 7. Formulare simple
+## 7. Formulare simples
 
 ### Exercițiul 7.1
 
@@ -123,7 +123,7 @@ Creează un formular de contact cu:
 - Nume (obligatoriu)
 - Email (obligatoriu, tip email)
 - Telefon (opțional)
-- Mesaj (textarea)
+- Mesaj (textaresa)
 - Buton de trimitere
 
 ### Exercițiul 7.2

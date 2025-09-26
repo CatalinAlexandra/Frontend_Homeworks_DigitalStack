@@ -5,6 +5,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+       table {
+      border-collapse: collapse;
+      width: 100%;
+      text-align: center;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+    .pauza {
+      background-color: #ffe0b3;
+      font-weight: bold;
+    }
+    </style>
     <title>Prima mea pagina</title>
   </head>
   <body>
@@ -42,20 +60,20 @@
     <br />
     <!-- Exercitiu 4.1-4.2-->
     <img
-      src="/01_HTML/Practice_HTML/Images/Mops-II.jpg"
+      src="/01_HTML/Images/Mops-II.jpg"
       alt="mops"
       height="200px"
       weight="200px"
     />
     <img
-      src="/01_HTML/Practice_HTML/Images/FrenchBulldog.jpg"
+      src="/01_HTML/Images/FrenchBulldog.jpg"
       alt="french-bulldogs"
       height="200px"
       weight="200px"
     />
     <a href="https://ro.wikipedia.org/wiki/Bulldog_englez"
       ><img
-        src="/01_HTML/Practice_HTML/Images/EnglishBulldog.jpg"
+        src="/01_HTML/Images/EnglishBulldog.jpg"
         alt="bulldog"
         height="200px"
         weight="200px"
@@ -120,5 +138,107 @@
       </li>
     </ol>
     <!-- Exercitiu 6.1-->
+    <table style="width: 100">
+      <thead>
+        <tr>
+          <th>Nume</th>
+          <th>Varsta</th>
+          <th>Orasul</th>
+          <th>Hobby-preferat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Maria</td>
+          <td>27</td>
+          <td>Sinaia</td>
+          <td>Machiajul</td>
+        </tr>
+        <tr>
+          <td>Ioana</td>
+          <td>28</td>
+          <td>Bucuresti</td>
+          <td>Limbi straine</td>
+        </tr>
+        <tr>
+          <td>Alexandru</td>
+          <td>30</td>
+          <td>Constanta</td>
+          <td>Jocurile pe calculator</td>
+        </tr>
+        <tr>
+          <td>Andrei</td>
+          <td>29</td>
+          <td>Bucuresti</td>
+          <td>Fotbalul</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+  </br>
+  </br>
+    <!-- Exercitiu 6.2-->
+     <table>
+      <thead><tr><th>Ora</th>
+        <th>Luni</th>
+      <th>Marti</th>
+      <th>Miercuri</th>
+      <th>Joi</th>
+      <th>Vineri</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>8:00-8:50</td>
+          <td>Romana</td>
+        <td>Matematica</td>
+        <td>Istorie</td>
+        <td>Romana</td>
+        <td>Geografie</td>
+      </tr>
+      <tr>
+        <td>9:00-9:50</td>
+        <td>Matematica</td>
+        <td>Educatie civica</td>
+        <td>Romana</td>
+        <td>Sport</td>
+        <td>Biologie</td>
+      </tr>
+            <tr>
+              <td>10:00-11:00</td>
+        <td>Engleza</td>
+        <td>Romana</td>
+        <td>Matematica</td>
+        <td>Matematica</td>
+        <td>Romana</td>
+      </tr>
+      <tr>
+         <td class="pauza" colspan="6">Pauza Mare</td>
+        </tr>
+         <tr>
+        <td>11:30-12:30</td>
+        <td rowspan="2">Informatica</td>
+        <td>Engleza</td>
+        <td>Biologie</td>
+        <td>Educatie civica</td>
+        <td>Matematica</td>
+      </tr>
+    <tr>
+        <td>13:30-14:30</td>
+        <td>Informatica</td>
+        <td>Geografie</td>
+        <td>Biologie</td>
+        <td>Istorie</td>
+      </tr>
+          <tr>
+        <td>14:30-15:30</td>
+        <td>Sport</td>
+        <td>Chimie</td>
+        <td>Biologie</td>
+        <td>Fizica</td>
+        <td>Engleza</td>
+      </tr>
+     
+      </tbody>
+     </table>
   </body>
 </html>

@@ -199,67 +199,52 @@ header {
 .sidebar ul li a:hover {
   color: #4caf50;
 }
-nav a {
+
+.navbar {
   margin: 0 15px;
   color: white;
   text-decoration: none;
-  font-weight: bold;
+  font-size: 18px;
 }
-nav a:hover {
+
+.navbar:hover {
   text-decoration: underline;
 }
-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-}
-header nav {
-  margin-top: 10px;
-}
-header h1 {
-  margin: 0;
-}
-header {
+footer {
   background: #4caf50;
   color: white;
-  padding: 10px 0;
   text-align: center;
+  padding: 10px;
   position: fixed;
-  top: 0;
+  bottom: 0;
   width: 100%;
-  z-index: 1000;
 }
-header nav {
-  margin-top: 10px;
-}
-header h1 {
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
   margin: 0;
+  padding: 20px;
+  color: #333;
 }
-header nav a {
-  margin: 0 15px;
-  color: white;
-  text-decoration: none;
+h1 {
+  text-align: center;
+  color: #2b7a78;
+}
+.quote {
+  background: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 700px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+blockquote {
+  margin: 0;
+  font-style: italic;
+}
+.author {
+  margin-top: 10px;
+  text-align: right;
   font-weight: bold;
-}
-header nav a:hover {
-  text-decoration: underline;
-}
-header nav a:focus {
-  outline: 2px solid #fff;
-  outline-offset: 2px;
-}
-header nav a:active {
-  color: #ffeb3b;
-}
-header nav a.current {
-  text-decoration: underline;
-  font-size: 1.1em;
-}
-header nav a.current:hover {
-  text-decoration: none;
-}
-header nav a.current:focus {
-  outline: 2px solid #fff;
-  outline-offset: 2px;
 }

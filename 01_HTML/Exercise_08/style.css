@@ -128,3 +128,138 @@ textarea {
   background: #fefefe;
   border-color: #125688;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #4caf50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  gap: 20px;
+}
+
+.main-content {
+  flex: 3;
+}
+
+.article {
+  background: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.article h2 {
+  color: #4caf50;
+}
+
+.sidebar {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+}
+
+.sidebar h3 {
+  border-bottom: 2px solid #4caf50;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar ul li a:hover {
+  color: #4caf50;
+}
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+header nav {
+  margin-top: 10px;
+}
+header h1 {
+  margin: 0;
+}
+header {
+  background: #4caf50;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+header nav {
+  margin-top: 10px;
+}
+header h1 {
+  margin: 0;
+}
+header nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+header nav a:focus {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+header nav a:active {
+  color: #ffeb3b;
+}
+header nav a.current {
+  text-decoration: underline;
+  font-size: 1.1em;
+}
+header nav a.current:hover {
+  text-decoration: none;
+}
+header nav a.current:focus {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}

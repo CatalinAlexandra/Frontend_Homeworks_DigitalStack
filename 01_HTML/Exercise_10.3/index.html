@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal de Stiri</title>
+  </head>
+  <body>
+    <header>
+      <h1>Portal de Stiri</h1>
+      <nav>
+        <a href="#">Acasa</a> | <a href="#">Stiri</a> |
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <article aria-labelledby="titlu-articol-principal">
+        <header>
+          <h2 id="titlu-articol-principal">
+            Titlu Articol Principal: Eveniment Important in Oras
+          </h2>
+          <p>
+            <small>Autor: Ioana Popescu | Data: 2 octombrie 2025</small>
+          </p>
+        </header>
+
+        <figure>
+          <img
+            src="https://play-lh.googleusercontent.com/QvTfA5WH0B4X04u_sxSBdb-PlO7Wj6yjeyJVzwoyUsefJPTXDE75QBKKJr1fyI5CHQq9"
+            alt="Descriere scurtă a imaginii articolului"
+            width="400"
+            height="350"
+          />
+          <figcaption>Imagine: Moment din evenimentul recent.</figcaption>
+        </figure>
+
+        <p>
+          Acesta este paragraful introductiv al articolului principal. Aici se
+          prezintă contextul, faptele esențiale și informațiile cheie pe scurt.
+          Urmează dezvoltarea subiectului cu detalii, declarații și reacții.
+        </p>
+
+        <p>
+          Paragraful următor dezvoltă subiectul, oferind citate, date și
+          explicații suplimentare. Jurnaliștii continuă ancheta pentru a
+          verifica sursele și pentru a adăuga perspective complementare.
+        </p>
+      </article>
+      <hr />
+      <aside>
+        <h3 id="titlu-sidebar">Stiri secundare</h3>
+        <ul>
+          <li>
+            <article>
+              <h4><a href="#sec1">Titlu scurt 1</a></h4>
+              <p><small> 2 oct 2025</small></p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h4><a href="#sec2">Titlu scurt 2</a></h4>
+              <p><small> 2 oct 2025</small></p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h4><a href="#sec3">Titlu scurt 3</a></h4>
+              <p><small> 1 oct 2025</small></p>
+            </article>
+          </li>
+        </ul>
+      </aside>
+      <hr />
+      <section id="comentarii">
+        <h3 id="titlu-comentarii">Comentarii</h3>
+        <form action="#" method="post">
+          <p id="instr-formular">
+            Lasa-ne un comentariu. Campurile marcate cu * sunt obligatorii.
+          </p>
+
+          <fieldset>
+            <legend>Informatii utilizator</legend>
+
+            <p>
+              <label for="nume">Nume *</label><br />
+              <input type="text" id="nume" name="nume" required />
+            </p>
+
+            <p>
+              <label for="email">Email (nu va fi afisat) *</label><br />
+              <input type="email" id="email" name="email" required />
+            </p>
+          </fieldset>
+
+          <fieldset>
+            <legend>Commentariu</legend>
+
+            <p>
+              <label for="mesaj">Comentariu *</label><br />
+              <textarea id="mesaj" name="mesaj" rows="5" required></textarea>
+            </p>
+
+            <p>
+              <label for="autor-afisat">Nume afisat</label><br />
+              <input
+                type="text"
+                id="autor-afisat"
+                name="autor_afisat"
+                placeholder="Numele tau aici"
+              />
+            </p>
+          </fieldset>
+
+          <p>
+            <button type="submit">Trimite comentariu</button>
+            <button type="reset">Reset</button>
+          </p>
+        </form>
+        <div aria-live="polite">
+          <h4>Comentarii recente</h4>
+          <ul>
+            <li>
+              <article>
+                <p><strong>Andrei</strong> <small>— 2 oct 2025</small></p>
+                <p>
+                  Comentariu exemplu: Multumesc pentru articol — foarte
+                  informativ.
+                </p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <p><strong>Ioana</strong> <small>— 1 oct 2025</small></p>
+                <p>
+                  Comentariu exemplu: Interesanta perspectiva, astept
+                  următoarele actualizări.
+                </p>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <nav aria-label="Link-uri utile">
+        <h4>Link-uri utile</h4>
+        <ul>
+          <li>
+            <a href="#politica-confidentialitate"
+              >Politica de confidentialitate</a
+            >
+          </li>
+          <li><a href="#termeni-conditii">Termeni si condiiii</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#despre-noi">Despre noi</a></li>
+        </ul>
+      </nav>
+
+      <p>
+        Contact redactie:
+        <a href="mailto:contact@plateria.ro">contact@portaldestiri.ro</a>
+      </p>
+      <p>&copy; 2025 Portal de Stiri</p>
+    </footer>
+  </body>
+</html>

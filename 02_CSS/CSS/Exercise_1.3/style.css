@@ -1,0 +1,37 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+  color: darkblue;
+  text-align: center;
+}
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: lightgreen;
+  color: darkred;
+}
+
+.container {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: cornsilk;
+  color: #333;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+.box {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: antiquewhite;
+  color: brown;
+  border: 1px solid gray;
+  padding: 5px;
+  margin: 5px;
+}
+.links a {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: darkgreen;
+  text-decoration: none;
+}
